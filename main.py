@@ -69,8 +69,9 @@ print(my_bool)
 # Inside num2, store the number 5.
 # Check if num1 is equal to num2 and store the result of that comparison in a variable called my_bool.
 from math import*
-num1 = 
-num2 = 
+print(sqrt(25))
+num2 = 5
+
 
 # Comparison Operators Practice #3:
 # Create two variables (num1 and num2):
@@ -94,13 +95,13 @@ num2 =
 # Create three variables (num1, num2, and num3):
 
 # Inside num1, store the value 36
-
+num1 = 36
 # Inside num2, stores the result of the operation 72/2
-
+num2 = 72/2
 # Inside num3, store the value 48
-
+num3 = 48
 # Check if num1 is greater than num2, and less than num3. Store the result of that comparison in a variable called my_bool.
-
+#my_bool = num
 
 
 
@@ -126,6 +127,10 @@ num2 =
 
 # are not found in the sentence below, and store the result (a boolean) in a variable called my_bool:
 
+text = "when something is important enough, you do it even if the odds are against you" 
+my_bool = ("word1" in text) and ('word2' in text)
+print(my_bool)
+
 # "When something is important enough, you do it even if the odds are against you" - Elon Musk
 
 
@@ -133,9 +138,21 @@ num2 =
 
 
 ########################################decision making in python#####################################
+# if 5 == 2: 
+#   print("it is correct")
+# else:
+#   print("it is not correct")
 
-
-
+pet = 'rabbit'
+if pet == 'cat':
+  print("you have a cat")
+elif pet == 'dog':
+  print("you have a dog")
+elif pet == 'fish':
+  print("you have a fish")
+else:
+  print("i dont know what animal you have")
+  
 # Decision Making Practice #1
 # Using the variables num1 and num2, which are fed with user input (just like in the provided code), create a flow control structure that compares the values of the variables, and returns a result according to the case:
 
